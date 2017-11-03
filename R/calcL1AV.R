@@ -1,8 +1,3 @@
-#USP <905> Uniforimty of Dosage Units
-
-
-# Calculate L1 Acceptance Value -------------------------------------------
-
 #' Calculate L1 Acceptance Value
 #'
 #' Caclculate the L1 acceptance value from the assay values of a 10 dosage unit
