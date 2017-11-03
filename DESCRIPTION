@@ -1,11 +1,10 @@
 Package: contentU
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Content Uniformity Calculations
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Robert Saw 
+Maintainer: Robert Saw <robertsaw@outlook.com>
+Description: Some functions related to USP <905> Uniformity of Dosage Units
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -3,6 +3,20 @@
 
 # Calculate L1 Acceptance Value -------------------------------------------
 
+#' Calculate L1 Acceptance Value
+#'
+#' Caclculate the L1 acceptance value from the assay values of a 10 dosage unit
+#' sample.
+#'
+#' @param x A vector containing the individual assay values of 10 dosage units
+#' @param T The target assay value.  T=100 in most circumstances.
+#'
+#' @return List containing AV1, the L1 Acceptance Values and passL1, a logical
+#' @export
+#'
+#' @examples
+#' sample <- seq(95, 104)
+#' calcL1AV(sample)
 calcL1AV <- function(x, T=100){
   if(length(x)!=10) warning("A sample of 10 dosage units is required.")
 
