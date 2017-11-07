@@ -9,7 +9,7 @@
 #' additional 20 dosage units.
 #' @param T The target assay value.  T=100 in most circumstances.
 #'
-#' @return List containing AV2, the L2 Acceptance Values and passL1, a logical
+#' @return List the L2 Acceptance Value and a logical
 #' indicating whether the sample passed.
 #' @export
 #'

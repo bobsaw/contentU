@@ -1,12 +1,13 @@
 #' Calculate L1 Acceptance Value
 #'
-#' Caclculate the L1 acceptance value from the assay values of a 10 dosage unit
+#' Calculate the L1 acceptance value from the assay values of a 10 dosage unit
 #' sample.
 #'
 #' @param x A vector containing the individual assay values of 10 dosage units
 #' @param T The target assay value.  T=100 in most circumstances.
 #'
-#' @return List containing AV1, the L1 Acceptance Values and passL1, a logical
+#' @return List containing the L1 Acceptance Value and a logical
+#' indicating whether the sample passed.
 #' @export
 #'
 #' @examples
